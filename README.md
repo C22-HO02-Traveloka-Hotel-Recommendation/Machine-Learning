@@ -1,4 +1,4 @@
-# Hotel_Recomendation_Model_Traveloka - Machine Learing Path
+# Hotel Recomendation Model Traveloka - Machine Learing Path
 Bangkit 2022 Company-based Capstone <br> <br>
 Team ID	: C22-HO02 <br>
 (ML) M2010F1018 - Lufthi Kautsar - Universitas Indonesia <br>
@@ -22,3 +22,15 @@ The Data Exploration is done is Jupyter Notebooks on the "Eksplorasi Data" folde
 We deploy the model using Flask by creating a python code that will load the required dataframe and Keras h5 model. The Flask will receive a user_id as a string from the backend, then load the features of the user using the already loaded pandas dataframe. After that, the model will predict by ranking the hotel recommendations for the given user. The recommendation is returned in JSON format using jsonify.
 
 ## Machine Learning Model <br>
+
+1. Content based <br>
+Content-based filtering system: Content-Based recommender system tries to guess the features or behavior of a user given the item’s features, he/she reacts positively to. Once, we know the likings of the user we can embed him/her in an embedding space using the feature vector generated and recommend him/her according to his/her choice. During recommendation, the similarity metrics are calculated from the item’s feature vectors and the user’s preferred feature vectors from his/her previous records. Then, the top few are recommended. It does not require other users' data during recommendations to one user.
+
+2. Collaborative <br>
+Collaborative does not need the features of the items to be given. Every user and item is described by a feature vector or embedding. It creates embedding for both users and items on its own. It embeds both users and items in the same embedding space. It considers other users’ reactions while recommending a particular user. It notes which items a particular user likes and also the items that the users with behavior and likings like him/her likes, to recommend items to that user. It collects user feedbacks on different items and uses them for recommendations.
+
+3. DeepFM <br>
+DeepFM is an end-to-end model that seamlessly integrates Factorization Machine (the wide component) and Multi-Layer Perceptron (the deep component). Compared to the Wide and Deep Model from Google, DeepFM does not require tedious feature engineering. DeepFM consists of an FM component and a deep component which are integrated in a parallel structure. The FM component is the same as the 2-way factorization machines which is used to model the low-order feature interactions. The deep component is an MLP that is used to capture high-order feature interactions and nonlinearities. These two components share the same inputs/embeddings and their outputs are summed up as the final prediction. It is worth pointing out that the spirit of DeepFM resembles that of the Wide & Deep architecture which can capture both memorization and generalization
+dah yak
+
+

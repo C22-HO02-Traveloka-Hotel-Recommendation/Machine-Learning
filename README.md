@@ -18,5 +18,7 @@ For data structure, data is split between Machine Learning and Non-Machine Learn
 
 The Data Exploration is done is Jupyter Notebooks on the "Eksplorasi Data" folder, the dataset then extracted to get location data, experiment folder, and main dataset. The main dataset folder, contains the final datasets and the train test split using stratified split based on the total of user review.
 
+## Model Deployment <br>
+We deploy the model using Flask by creating a python code that will load the required dataframe and Keras h5 model. The Flask will receive a user_id as a string from the backend, then load the features of the user using the already loaded pandas dataframe. After that, the model will predict by ranking the hotel recommendations for the given user. The recommendation is returned in JSON format using jsonify.
 
 ## Machine Learning Model <br>

@@ -1,4 +1,4 @@
-# Hotel_Recomendation_Model_Traveloka
+# Hotel_Recomendation_Model_Traveloka - Machine Learing Path
 Bangkit 2022 Company-based Capstone <br> <br>
 Team ID	: C22-HO02 <br>
 (ML) M2010F1018 - Lufthi Kautsar - Universitas Indonesia <br>

@@ -4,7 +4,7 @@ Team ID	: C22-HO02 <br>
 (ML) M2010F1018 - Lufthi Kautsar - Universitas Indonesia <br>
 (ML) M7012G1242 - Ridhwan Nashir - Telkom University <br>
 (ML) M2123F1566 - Joane Vanesa Hadi - Politeknik Elektronika Negeri Surabaya <br>
-(ML) M7123G1556 - Zul Fauzi Oktaviansyah <br>
+(ML) M7123G1556 - Zul Fauzi Oktaviansyah - Politeknik Elektronika Negeri Surabaya <br>
 
 ## Data Engineering <br>
 Our dataset is created using 2 datasets from Kaggle Goibibio India hotel, a list of hotels with more than 3000 unique hotels, and Datafiniti hotel review, a list of hotel reviews with more than 9000 hotel reviews in the US.
